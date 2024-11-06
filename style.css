@@ -9,6 +9,11 @@ ul {
     flex-direction: row;
 }
 
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -55,4 +60,34 @@ ul {
 .hero-image {
     background-color: gray;
     color: #E5E7EB;
+    text-align: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-box {
+    border: 2px solid #1F2937;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.item-text {
+    text-align: center;
 }
