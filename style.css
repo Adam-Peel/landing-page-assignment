@@ -81,6 +81,7 @@ li {
     background-color: gray;
     color: #E5E7EB;
     text-align: center;
+    justify-content: center;
 }
 
 .hero-text-block, .hero-image {
