@@ -17,13 +17,20 @@ li {
     padding-right: 10px;
 }
 
-#button {
+#about-button, #newsletter-button {
     background-color: #3882F6;
     color: #F9FAF8;
     text-align: center;
-    border: none;
     border-radius: 8px;
     padding: 8px;
+}
+
+#about-button {
+    border: none;
+}
+
+#newsletter-button {
+    border:#E5E7EB solid 2px;
 }
 
 .header, .footer {
@@ -143,6 +150,37 @@ li {
     font-size: 16px;
     font-weight: bold;
     text-align: end;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-evenly;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 2;
+}
+
+.cta-button {
+    display: flex;
+    flex-basis: 1 auto;
+}
+
+.cta-header {
+    font-size: larger;
+    font-weight: bold;
 }
 
 .footer {
