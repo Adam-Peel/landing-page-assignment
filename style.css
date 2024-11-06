@@ -2,3 +2,57 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-links, .hero-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.logo-placeholder {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.hero-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-image {
+    background-color: gray;
+    color: #E5E7EB;
+}
