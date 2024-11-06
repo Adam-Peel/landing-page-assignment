@@ -23,13 +23,13 @@ li {
     padding: 8px;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .header-links, .hero-content {
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 .header-banner {
@@ -89,5 +89,18 @@ li {
 }
 
 .item-text {
+    text-align: center;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer {
+    padding: 8px;
     text-align: center;
 }
