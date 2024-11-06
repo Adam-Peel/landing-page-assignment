@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    flex: 1;
 }
 
 ul {
@@ -26,6 +29,7 @@ li {
 .header, .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    min-height: 32px;
 }
 
 .header-links, .hero-content {
