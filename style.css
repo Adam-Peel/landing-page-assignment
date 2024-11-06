@@ -92,12 +92,26 @@ li {
     text-align: center;
 }
 
-.quote-block {
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-block, .quote-attribute {
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+.quote-block {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.quote-attribute {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: end;
 }
 
 .footer {
